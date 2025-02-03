@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="head">
+      <div><button class="restart">Again!</button></div>
+      <div>&lt Between 1 and 20 ></div>
+    </div>
+    <h1>Guess My Number!</h1>
+    <div class="number">
+      <div class="content">?</div>
+    </div>
+    <div class="line"></div>
+    <div class="guess">
+      <div><input class="input-field" min="1" max="20" type="number"></input></div>
+      <div class="message">Start Guessing...</div>
+    </div>
+    <div class="score">
+      <div><button class="check">Check!</button></div>
+      <div>
+        <div class="current-score">💯 Current Score: 20</div>
+        <div class="highscore">🥇 High Score: 0</div>
+      </div>
+    </div>
+
+    <script src="numberGuesser.js" async defer></script>
+  </body>
+</html>

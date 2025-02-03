@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  background-color: rgb(44, 42, 42);
+  border-color: white;
+  font-family: "Silkscreen", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.25rem;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+}
+
+button {
+  background-color: white;
+  color: rgb(44, 42, 42);
+  padding: 0.5rem;
+
+  &:hover {
+    background-color: rgb(44, 42, 42);
+    color: white;
+    cursor: pointer;
+  }
+}
+
+h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.number {
+  display: flex;
+  justify-content: center;
+  .content {
+    margin-top: 1rem;
+    background-color: white;
+    color: rgb(44, 42, 42);
+    padding: 2rem;
+    font-size: 2.5rem;
+    font-weight: bold;
+    z-index: 1;
+  }
+}
+
+.line {
+  width: 100vw;
+  border-bottom: 0.25rem solid white;
+  transform: translate(0, -3.25rem);
+}
+
+.guess {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
+  input {
+    width: 16rem;
+    height: 6rem;
+    padding: 1rem;
+    text-align: center;
+    font-size: 2rem;
+  }
+}
+
+.score {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
+}
